@@ -65,9 +65,7 @@ li {
     font-weight: 500;
     line-height: 1.2;
   }
-  .list {
-    padding-left: 24px;
-  }
+  
   .list-container {
     display: flex;
     flex-direction: row;
