@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body></body>
   <footer>
-    <div>
+    <div clas="footer-container">
       <!--logo do ukrycia w mobile i tablet-->
-      <p>
-        <svg width="73" height="57">
-          <use href="./icons.svg#icon-logo"></use>
-        </svg>
-      </p>
-      <ul>
-        <li>
-          <p>Navigation</p>
-        </li>
-        <li><a href="">Anemone</a></li>
-        <li><a href="">About us</a></li>
-        <li><a href="">Store</a></li>
-        <li><a href="">Delivery</a></li>
-      </ul>
+      <div class="list-container">
+        <div class="logo-svg-footer">
+          <svg width="73" height="57">
+            <use href="./icons.svg#icon-logo"></use>
+          </svg>
+        </div>
+        
+        <ul class="list">
+          <li>
+            <p class="footer-p">Navigation</p>
+          </li>
+          <li><a href="" class="list-points">Anemone</a></li>
+          <li><a href="" class="list-points">About us</a></li>
+          <li><a href="" class="list-points">Store</a></li>
+          <li><a href="" class="list-points">Delivery</a></li>
+        </ul>
 
-      <ul>
-        <li>
-          <p>Opening times</p>
-        </li>
-        <li>Every day <br />9:00-22:00</li>
-      </ul>
-      <ul>
-        <li>
-          <p>Contacts</p>
-        </li>
-        <li><a href="tel:+380631234567">+38 063 123 45 67</a></li>
-        <li>
-          <a href="mailto:anemonestudio@example.com"
-            >anemonestudio@example.com</a
-          >
-        </li>
-        <li>
-          Reitarska Street, 11<br />
-          Kyiv, Ukraine
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <svg width="28" height="28">
-              <use href="./icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <svg width="28" height="28">
-              <use href="./icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <ul class="list">
+          <li>
+            <p class="footer-p">Opening times</p>
+          </li>
+          <li class="list-points">Every day <br />9:00-22:00</li>
+        </ul>
+        <ul class="list">
+          <li>
+            <p class="footer-p">Contacts</p>
+          </li>
+          <li>
+            <a href="tel:+380631234567" class="list-points"
+              >+38 063 123 45 67</a
+            >
+          </li>
+          <li>
+            <a href="mailto:anemonestudio@example.com" class="list-points"
+              >anemonestudio@example.com</a
+            >
+          </li>
+          <li class="list-points">
+            Reitarska Street, 11<br />
+            Kyiv, Ukraine
+          </li>
+        </ul>
+        <ul class="list">
+          <li>
+            <a href="#">
+              <svg class="footer-svg" width="28" height="28">
+                <use href="./icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="footer-svg" width="28" height="28">
+                <use href="./icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 </html>
