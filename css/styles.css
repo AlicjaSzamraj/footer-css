@@ -99,23 +99,24 @@ li {
     gap: 44px;
   }
   .list {
-    width: fit-content;
+    width: calc((100% - 16px) / 4);
   }
   .svg-icons {
     display: block;
   }
   .container-svg {
     padding-left: 64px;
+    padding-right: 40px;
   }
 }
 
-@media (min-width: 1158px) {
+@media (min-width: 1200px) {
   footer {
     height: 299px;
   }
   .footer-container {
     width: 100%;
-    max-width: 1158px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   .logo-svg-footer {
@@ -135,13 +136,17 @@ li {
   .list-container {
     padding: 73px 0px 0px 0px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     gap: 96px;
   }
   .list {
-    width: fit-content;
+    width: auto;
   }
   .svg-icons {
     display: block;
+  }
+  .container-svg {
+    padding-right: 48px;
   }
 }
